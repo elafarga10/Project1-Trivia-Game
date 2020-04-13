@@ -363,7 +363,7 @@ function handleButtonClick10() {
 			let endScore = document.querySelector('.end-score');
 			endScore.innerText = `Final Score: ${playerScore}/10`;
 			let endScreenResult = document.querySelector('.end-screen-text');
-			endScreenResult.style.display = 'block';
+            endScreenResult.style.display = 'block';
 			score.style.display = 'none';
 			buttonContainer.style.display = 'none';
 			questionHolder.style.display = 'none';
