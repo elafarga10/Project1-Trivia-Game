@@ -1,11 +1,30 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
- </head>
- <body>
-     
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Trivia Game</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="trivia-title">Lego Trivia</h1>
+			<h3 class="score">Score:</h3>
+		</header>
+		<main>
+			<div>
+				<h1 class="end-screen-text">Congratulations!</h1>
+				<h3 class="end-score"></h3>
+			</div>
+			<p class="question"></p>
+			<div class="button-container">
+				<button class="answer1 answer-button"></button>
+				<button class="answer2 answer-button"></button>
+				<button class="answer3 answer-button"></button>
+				<button class="answer4 answer-button"></button>
+			</div>
+			<div><button class="reset-button secondary-button">Reset</button> <button class="instruction-button secondary-button">Instructions</button></div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
