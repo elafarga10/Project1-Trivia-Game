@@ -18,7 +18,7 @@
 
 //once final question is answered, screen displays score
 
-//In summary: app should be able to display question along with corresponding answers in buttons, when user clicks on right answer it will display as green or correct, if the user selects wrong answer it will display as wrong, then a new question will appear along with its own corresponding answers and the process repeats.
+// //In summary: app should be able to display question along with corresponding answers in buttons, when user clicks on right answer it will display as green or correct, if the user selects wrong answer it will display as wrong, then a new question will appear along with its own corresponding answers and the process repeats.
 
 const questionOne = 'When was Lego founded?';
 
@@ -93,8 +93,6 @@ const buttonContainer = document.querySelector('.button-container');
 const score = document.querySelector('.score');
 let playerScore = 0;
 
-const resetGame = document.querySelector('.reset-button');
-resetGame.addEventListener('click', resetButton);
 playerScore += 0;
 score.innerText = `Score: ${playerScore}`;
 
@@ -141,7 +139,6 @@ let questions = [
 	},
 ];
 
-let you = '1';
 //Each function checks to make sure the correct answer was clicked then programs the next question and answers. It also sets up the next question and answers even if the wrong button is clicked however it does not add a point to the player's score.
 //QUESTION 1
 function handleButtonClick1() {
