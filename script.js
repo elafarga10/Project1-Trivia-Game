@@ -363,7 +363,7 @@ function handleButtonClick10() {
 			let endScore = document.querySelector('.end-score');
 			endScore.innerText = `Final Score: ${playerScore}/10`;
 			let endScreenResult = document.querySelector('.end-screen-text');
-            endScreenResult.style.display = 'block';
+			endScreenResult.style.display = 'block';
 			score.style.display = 'none';
 			buttonContainer.style.display = 'none';
 			questionHolder.style.display = 'none';
@@ -376,35 +376,5 @@ function handleButtonClick10() {
 			buttonContainer.style.display = 'none';
 			questionHolder.style.display = 'none';
 		}
-	}
-	body.removeEventListener('click', handleButtonClick9);
-	resetGame.addEventListener('click', resetButton)
-}
-
-function resetButton() {
-	if (event.target.classList.contains('reset-button')) {
-		playerScore = 0;
-		score.innerText = `Score: ${playerScore}`;
-		questionHolder.innerText = `Question 1: ${questionOne}`;
-		buttonOne.innerText = '1912';
-		buttonTwo.innerText = '1932';
-		buttonThree.innerText = '1976';
-		buttonFour.innerText = '1951';
-		endScreenResult.style.display = 'none';
-		score.style.display = 'block';
-		buttonContainer.style.display = 'block';
-		questionHolder.style.display = 'block';
-		// body.removeEventListener('click', handleButtonClick2);
-		// body.removeEventListener('click', handleButtonClick3);
-		// body.removeEventListener('click', handleButtonClick4);
-		// body.removeEventListener('click', handleButtonClick5);
-		// body.removeEventListener('click', handleButtonClick6);
-		// body.removeEventListener('click', handleButtonClick7);
-		// body.removeEventListener('click', handleButtonClick8);
-		// body.removeEventListener('click', handleButtonClick9);
-		// body.removeEventListener('click', handleButtonClick10);
-		// body.removeEventListener('click', resetButton);
-		resetGame.removeEventListener('click', resetButton);
-		body.addEventListener('click', handleButtonClick1);
 	}
 }
