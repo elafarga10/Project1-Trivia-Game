@@ -21,3 +21,7 @@ To set up the game locally on your system:
 
 ### Contribute
 - Source Code: (https://github.com/elafarga10/Project1-Trivia-Game)
+
+## URL
+
+- Source: https://elafarga10.github.io/Project1-Trivia-Game/
