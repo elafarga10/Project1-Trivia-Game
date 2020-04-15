@@ -22,9 +22,7 @@
 
 const questionOne = 'When was Lego founded?';
 
-// const wrongAnswer1 = '1912';
-// const wrongAnswer2 = '1943';
-// const wrongAnswer3 = '1951';
+
 const wrongAnswer4 = 'United States';
 const wrongAnswer5 = 'Sweden';
 const wrongAnswer6 = 'Germany';
@@ -55,9 +53,6 @@ const wrongAnswer30 = 'Kjeld Kirk Kristiansen';
 
 const rightAnswers = ['Denmark', 'Wood', 'Danish words "leg godt"', '1978'];
 const wrongAnswers = [
-	// wrongAnswer1,
-	// wrongAnswer2,
-	// wrongAnswer3,
 	wrongAnswer4,
 	wrongAnswer5,
 	wrongAnswer6,

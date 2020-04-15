@@ -1,7 +1,7 @@
 # Project1-Trivia-Game
-SEIR Project 1 - a self scoring trivia game
-A trivia game about Lego that progresses through ten questions as the user chooses answers. Final score is displayed in the end.
-
+SEIR Project 1 - a self scoring trivia game  
+A trivia game about Lego that progresses through ten questions as the user chooses answers. Final score is displayed in the end.  
+![Game](Images/Trivia-Game-Preview.png)
 ## Current Features
 - Users can select between four answer choices
 - Users can see their score as they progress through the game
